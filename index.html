@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de zapatillas GIRLS</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <body>
+
+    <header class="header">
+      <div class="logo">
+        <img
+          src="https://w7.pngwing.com/pngs/672/449/png-transparent-sneakers-shoe-graphy-others-white-logo-monochrome.png"
+          alt="Logo de la marca">
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" id="botonLimpiar">Limpiar</a></li>
+          <li><a href="#" id="botonMostrar">Mostrar todos</a></li>
+          <li><a href="#" id="estadisticas">Estadísticas</a></li>
+        </ul>
+      </nav>
+      <input type="text" id="search-input" placeholder="Buscar producto.">
+     
+      <a class="btn" href="#" id="search-button"><button>Buscar</button></a>
+
+
+      <!----> <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+      <div id="mobile-menu" class="overlay">
+        <!----> <a onclick="closeNav()" href="" class="close">&times;</a>
+        <!---->
+        <div class="overlay-content">
+          <!---->
+          <li><a href="#" id="botonLimpiar">Limpiar</a></li>
+          <!---->
+          <li><a href="#" id="botonMostrar">Mostrar todos</a></li>
+          <!---->
+          <li><a href="#" id="estadisticas">Estadísticas</a></li>
+
+          <!---->
+        </div>
+        <!---->
+      </div>
+
+    </header>
+
+
+    <div id="pictures-container" class="flex-container">
+
+    </div>
+
+    <section id="results">
+      <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </section>
+
+
+    <json src="data (1).json"> </json>
+    <script src="script.js"></script>
+  </body>
+
+</html>
